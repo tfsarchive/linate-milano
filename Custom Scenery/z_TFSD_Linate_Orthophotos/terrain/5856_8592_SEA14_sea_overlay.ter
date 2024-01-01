@@ -1,0 +1,9 @@
+A
+800
+TERRAIN
+
+LOAD_CENTER 45.46013 8.96484 27450 4096
+BASE_TEX_NOWRAP ../textures/5856_8592_SEA14.dds
+BORDER_TEX ../textures/water_transition.png
+WET
+NO_SHADOW
