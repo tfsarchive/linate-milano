@@ -1,0 +1,44 @@
+A
+1000
+AG_POINT
+
+TEXTURE texture/AGP_blank.png
+TEXTURE_CONTROL texture/AGP_blank.png
+TEXTURE_TERRAIN 1.0 1.0 texture/AGP_blank.png
+TEXTURE_SCALE 10.0 10.0
+TEXTURE_WIDTH 10.0
+
+
+HIDE_TILES 
+OBJECT types/ADB-Safedock-T2.obj
+OBJECT types/ADB-Safedock-T2_24_anim.obj
+#object_wed ../blank.obj
+OBJECT types/pole1.obj
+OBJECT digits/eobt0_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/eobt1_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/eobt2_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/eobt3_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/EOBT_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/REM_safedock.obj
+#object_wed ../blank.obj
+OBJECT digits/rem_eobt_safedock.obj
+#object_wed ../blank.obj
+
+TILE -5.0 -5.0 5.0 5.0
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0.0 0.0 0.0 3.5 0
+OBJ_DELTA 0.0 0.0 0.0 3.5 1
+OBJ_DELTA 0.0 0.2 0.0 0.0 2
+OBJ_DELTA -0.126 -0.26 0.0 4.66 3
+OBJ_DELTA -0.042 -0.26 0.0 4.66 4
+OBJ_DELTA 0.042 -0.26 0.0 4.66 5
+OBJ_DELTA 0.126 -0.26 0.0 4.66 6
+OBJ_DELTA 0.0 -0.26 0.0 4.8 7
+OBJ_DELTA 0.0 -0.26 0.0 4.52 8
+OBJ_DELTA 0.0 -0.26 0.0 4.38 9

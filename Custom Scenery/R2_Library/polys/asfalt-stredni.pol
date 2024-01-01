@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE ../textures/asfalt-2.png
+SCALE 8 8
+SURFACE asphalt
+LAYER_GROUP markings -1

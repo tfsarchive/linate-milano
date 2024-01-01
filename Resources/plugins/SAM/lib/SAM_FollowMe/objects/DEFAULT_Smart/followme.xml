@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<object>
+    <!-- Dimensions of the bounding box occupied by the object -->
+    <bounds length="2.75063" width="1.79828" />
+
+    <!-- Distance from object origin to center of bounding box, y in case the origin is not on ground -->
+    <displace x="0" y="0" z="0" />
+
+    <!-- Optional for mobile objects -->
+    <steerable max_speed_kph="37.04" max_acceleration_mpss="1.34" max_deceleration_mpss="7.84">
+        <!-- displace_z is from obj origin -->
+        <front_axis max_angle="45" displace_z="-1.09086" radius="0.28873" />
+        <rear_axis displace_z="0.793845" radius="0.28873" />
+    </steerable>
+
+    <!-- Datarefs -->
+    <dataref path="sam/followme/wheels/steering" usage="steering"/>
+    <dataref path="sam/followme/wheel/rotation" usage="tireRotationFL"/>
+    <dataref path="sam/followme/brake" usage="braking"/>
+    <dataref path="sam/followme/guiding" usage="followMeGuiding"/>
+	</object>

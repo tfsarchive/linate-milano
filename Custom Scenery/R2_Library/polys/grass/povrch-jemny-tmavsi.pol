@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE ../../textures/povrch-1m.png
+SCALE 25 25
+SURFACE grass
+DECAL_LIB lib/g10/decals/park_grass_wet.dcl
+LAYER_GROUP terrain 0

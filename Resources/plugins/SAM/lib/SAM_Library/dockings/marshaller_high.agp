@@ -1,0 +1,40 @@
+A
+1000
+AG_POINT
+TEXTURE texture/Marshaller_01.png
+TEXTURE_CONTROL texture/Marshaller_01.png
+TEXTURE_TERRAIN 1.0 1.0 texture/Marshaller_01.png
+OBJECT types/marshaller_01.OBJ
+#object_wed types/marshaller_wed.OBJ
+OBJECT types/marshaller_02.OBJ
+#object_wed ../blank.obj
+OBJECT types/marshaller_03.OBJ
+#object_wed ../blank.obj
+OBJECT types/marshaller_04.OBJ
+#object_wed ../blank.obj
+OBJECT types/Stair_Maint_1.obj
+TILE -5.0 -5.0 5.0 5.0
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0 0 0 2.311	0
+OBJ_DELTA 0 0 0 0		4
+TILE -5 -5 5 5
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0 0 0 2.311 	1
+OBJ_DELTA 0 0 0 0		4
+TILE -5 -5 5 5
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0 0 0 2.311	2
+OBJ_DELTA 0 0 0 0		4
+TILE -5 -5 5 5
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0 0 0 2.311	3
+OBJ_DELTA 0 0 0 0		4
+LAYER_GROUP objects 0
+HIDE_TILES
+TEXTURE_SCALE 10.0 10.0
+TEXTURE_WIDTH 10.0
+# CREATED BY STAIRPORT DEV TOOL v1.00 

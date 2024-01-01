@@ -1,0 +1,11 @@
+A
+850
+LINE_PAINT
+LAYER_GROUP shoulders -2
+
+TEXTURE Runway_Shoulder_Stripes_Down.png
+TEXTURE_NORMAL 1.0 Shoulder_NRM.png
+LOD 10000
+TEX_WIDTH 512
+SCALE 14 56
+S_OFFSET 0 5 510 512

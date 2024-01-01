@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<traffic>
+    <followme>
+        <region>
+            <tags>
+                <tag>*</tag>
+            </tags>
+            <vehicle object="/objects/default_T5/followme.obj" livery="/liveries/default_T5/YELLOW/"/>
+			<vehicle object="/objects/default_T5/followme.obj" livery="/liveries/default_T5/WHITE/"/>
+            <vehicle object="/objects/DEFAULT_Smart/followme.obj" livery="/liveries/DEFAULT_Smart/YELLOW/"/>
+            <vehicle object="/objects/default_Duster/followme.obj" livery="/liveries/default_Duster/YELLOW/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>K*</tag>
+                <tag>PH*</tag>
+                <tag>PA*</tag>
+                <tag>C*</tag>
+            </tags>
+            <vehicle object="/objects/DEFAULT_Hilux/followme.obj" livery="/liveries/DEFAULT_Hilux/WHITE/"/>
+            <vehicle object="/objects/DEFAULT_Hilux/followme.obj" livery="/liveries/DEFAULT_Hilux/YELLOW/"/>
+            <vehicle object="/objects/default_Duster/followme.obj" livery="/liveries/default_Duster/YELLOW/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>ED*</tag>
+				<tag>ET*</tag>
+            </tags>
+            <vehicle object="/objects/default_T5/followme.obj" livery="/liveries/default_T5/YELLOW_GER/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>LR*</tag>
+                <tag>LB*</tag>
+                <tag>LF*</tag>
+            </tags>
+            <vehicle object="/objects/default_Duster/followme.obj" livery="/liveries/default_Duster/YELLOW/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>LK*</tag>
+                <tag>LI*</tag>
+                <tag>EP*</tag>
+            </tags>
+            <vehicle object="/objects/DEFAULT_Fabia/followme.obj" livery="/liveries/DEFAULT_Fabia/ORANGE/"/>
+			<vehicle object="/objects/DEFAULT_Hilux/followme.obj" livery="/liveries/DEFAULT_Hilux/RED/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>UK*</tag>
+                <tag>UL*</tag>
+            </tags>
+            <vehicle object="/objects/DEFAULT_Fabia/followme.obj" livery="/liveries/DEFAULT_Fabia/ORANGE_RUS/"/>
+        </region>
+        <region>
+            <tags>
+                <tag>EDDS</tag>
+                <tag>LO*</tag>
+            </tags>
+            <vehicle object="/objects/DEFAULT_Smart/followme.obj" livery="/liveries/DEFAULT_Smart/YELLOW/"/>
+        </region>
+        <region>
+            <tags>
+				<tag>EDDF</tag>
+				<tag>EDFE</tag>
+				<tag>EDVK</tag>
+				<tag>ETHF</tag>
+				<tag>ETID</tag>
+				<tag>ETOU</tag>
+            </tags>
+            <vehicle object="/objects/default_T5/followme.obj" livery="/liveries/default_T5/HESSEN/"/>
+        </region>
+    </followme>
+</traffic>
+

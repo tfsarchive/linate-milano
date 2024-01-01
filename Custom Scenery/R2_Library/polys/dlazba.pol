@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE ../textures/dlazba.dds
+SCALE 0.5 0.5
+SURFACE concrete
+LAYER_GROUP taxiways +1

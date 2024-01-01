@@ -1,0 +1,1018 @@
+<?xml version="1.0"?>
+<aircraft>
+  <acf name="727-200Adv.acf" author="2018" description="727 Series Pro V3 727-200Adv">
+    <door position="LF1" x="-2.75900006" y="0.150000006" z="-19.816" psi="7.1079998" opendref="FJS/732/DoorSta/Door1" openvalue="1" opendelay="5" closedref="FJS/732/DoorSta/Door1" closevalue="1" closedelay="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b738.acf" author="Alex Unruh" description="Boeing 737-800">
+    <service name="boarding" maxpax="160" paxweight="86" paxspeed="5.67" alwaysavail="true" />
+    <service name="catering" maxmeal="320" mealweight="0.6" mealspeed="0.84" />
+    <service name="initialization" bagnumber="0" />
+    <door position="LF1" x="-1.61600006" y="0.213360012" z="-13.9110003" psi="11.5600004" opendref="sim/cockpit2/switches/door_open[0]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/door_open[0]" closevalue="0" closedelay="5" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <door position="RF1" x="1.61600006" y="0.213" z="-13.9110003" psi="-11.5600004" opendref="sim/cockpit2/switches/door_open[4]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/door_open[4]" closevalue="0" closedelay="10" type="0" />
+    <vehicle type="Stair - Low" x="-4.91400003" z="-14.0019999" psi="95.8259964" door="LF1" delay="0" connect_record="B737_StairLow_Connect.gsr" disconnect_record="B737_StairLow_Disconnect.gsr">
+      <animation dataref="sam/vehicles/stair/height" value="2.8280000686645508" />
+    </vehicle>
+    <vehicle type="Loader - Baggage" x="5.11899996" z="-9.32600021" psi="270" door="RU2" delay="0" connect_record="B737_Loader_Connect.gsr" disconnect_record="B737_Loader_Disconnect.gsr">
+      <animation dataref="sam/vehicles/loader/height" value="1.6299999952316284" />
+    </vehicle>
+    <vehicle type="Catering Truck" x="7.04500008" z="-14.8879995" psi="-98.9869995" door="RF1" delay="0" connect_record="B737_Catering_Connect.gsr" disconnect_record="B737_Catering_Disconnect.gsr">
+      <animation dataref="sam/catering/height" value="2.8840000629425049" />
+    </vehicle>
+  </acf>
+  <acf name="b739.acf" author="Alex Unruh" description="Boeing 737-900U">
+    <door position="LF1" x="-1.74600005" y="0.583999991" z="-14.0780001" psi="10" opendref="laminar/B738/door/fwd_L_toggle" openvalue="1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a320neo.acf" author="JARDESIGN" description="Airbus A320neo by JARDesign">
+    <door position="LF1" x="-1.87699997" y="0.999000013" z="-11.7939997" psi="5.98999977" opendref="sim/custom/xap/doors/p_f_l_kn" openvalue="1" opendelay="5" closedref="sim/custom/xap/doors/p_f_l_kn" closevalue="0" closedelay="15" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="SSG_B748-I_11.acf" author="Supercritical Similation Group - All rights reserved" description="SSG Boeing 748-i V 1.6">
+    <door position="LF1" x="-2.91799998" y="0.463" z="-25.6970005" psi="5.36999989" />
+    <door position="LF2" x="-3.204" y="0.442999989" z="-12.3249998" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-2.69199991" y="3.09699988" z="-19.5570007" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a330.acf" author="JARDESIGN (C)" description="Airbus A330-200 by JARDesign">
+    <door position="LF1" x="-2.28600001" y="1.13999999" z="-21.5860004" psi="11.1599998" opendref="sim/custom/xap/doors/p_f_l_kn" openvalue="1" opendelay="5" closedref="sim/custom/xap/doors/p_f_l_kn" closevalue="0" closedelay="15" type="0" />
+    <door position="LF2" x="-2.73900008" y="1.13" z="-12.6949997" psi="0" opendref="sim/custom/xap/doors/p_c_l_kn" openvalue="1" opendelay="5" closedref="sim/custom/xap/doors/p_c_l_kn" closevalue="0" closedelay="15" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="747-400.acf" author="Mohammad Gazzawi / Sergio Santagada / Javier Rollon / Jim Gregory" description="B747-400">
+    <door position="LF1" x="-2.85299993" y="0.934000015" z="-21.2420006" psi="4.15999985" opendref="sim/cockpit2/switches/door_open[1]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/door_open[1]" closevalue="0" closedelay="5" />
+    <door position="LF2" x="-3.204" y="1.07099998" z="-11.9300003" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-2.61500001" y="3.671" z="-14.8070002" psi="0" opendref="sim/cockpit2/switches/door_open[0]" openvalue="1" opendelay="3" closedref="sim/cockpit2/switches/door_open[0]" closevalue="0" closedelay="3" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <service name="boarding" maxpax="209" paxweight="86" paxspeed="5.67" />
+    <service name="initialization" bagnumber="0" />
+  </acf>
+  <acf name="MD80.acf" author="Sergio Santagada, Massimo Durando, Ben Supnik, Austin Meyer, Mohammed Gazzawi" description="MAD DOG">
+    <door position="LF1" x="-1.53600001" y="0.328000009" z="-18.9404011" psi="7.38000011" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <service name="boarding" maxpax="120" paxweight="86" paxspeed="5.67" alwaysavail="true" />
+    <service name="catering" maxmeal="320" mealweight="0.6" mealspeed="0.84" />
+    <service name="initialization" bagnumber="0" />
+  </acf>
+  <acf name="AvroRJ100.acf" author="Andreas Much" description="BAE/Avro RJ 100">
+    <door position="LF1" x="-1.62800002" y="0.178000003" z="-9.8409996" psi="6.86999989" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="767-300ER_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 767 300ER with PW4062">
+    <door position="LF1" x="-2.3195281" y="0.856487989" z="-19.5437775" psi="5" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="CRJ200.acf" author="Javier Rollon (www.jrollon.com) &amp; Philipp Muenzel (www.philippmuenzel.de)" description="Bombardier Canadair CL-600 Regional Jet CRJ-200 v1.71 for X-Plane 10.5x">
+    <door position="LF1" x="0" y="0" z="0" psi="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="DC-6A.acf" author="Precision Manuals Development Group (PMDG)" description="DC-6A">
+    <door position="LF1" x="-5.8499999" y="-2.98000002" z="-10.9860001" psi="0.131999999" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="FlightFactor" description="FlightFactor Airbus A320-214 CFM56-5B4 ultimate">
+    <door position="LF1" x="-1.90799999" y="0.531000018" z="-11.7670002" psi="5" opendref="model/controls/door_1l" openvalue="1" opendelay="10" closedref="model/controls/door_1l" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Dash8Q400_XP11.acf" author="Jack Skieczius" description="Dash 8 Q400">
+    <door position="LF1" x="-5.78499985" y="-1.37800002" z="-10.6560001" psi="-0.0439999998" opendref="FJS/Com/doorToggle" openvalue="0" opendelay="5" closedref="FJS/Com/doorToggle" closevalue="1" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="B733.acf" author="IXEG International X-Plane Development Group" description="Boeing 737-300 Published by X-Aviation">
+    <door position="LF1" x="-1.65900004" y="0.432999998" z="-10.7889996" psi="7.44000006" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="SSGE-195LR_Evo_11.acf" author="Supercritical Simulations Group and FJCC" description="SSG Embraer 195 Evolution series">
+    <door position="LF1" x="-1.34599996" y="0.444000006" z="-12.6800003" psi="0.800000012" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="LES_Saab_340A.acf" author="Leading Edge Simulations" description="Saab 340A Published by X-Aviation">
+    <door position="LF1" x="-6.91599989" y="-0.551999986" z="-6.83999977" psi="-0.131999999" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="E175.acf" author="Marko Mamula" description="X-Crafts E175">
+    <door position="LF1" x="-1.55299997" y="0.181999996" z="-9.89799976" psi="3.5" opendref="xcraft/doors/front_main" openvalue="1" opendelay="6" closedref="xcraft/doors/front_main" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="E195.acf" author="Marko Mamula" description="X-Crafts E195">
+    <door position="LF1" x="-1.42999995" y="0.252984017" z="-12.4847364" psi="1.27999997" opendref="xcraft/doors/front_main" openvalue="1" opendelay="1" closedref="xcraft/doors/front_main" closevalue="0" closedelay="1" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Dash8Q400.acf" author="2013" description="Dash 8 Q400">
+    <door position="LF1" x="-6.0710001" y="-1.98699999" z="-9.92000103" psi="0.0439999998" opendref="sim/flightmodel2/misc/custom_slider_ratio[23]" openvalue="0" opendelay="5" closedref="sim/flightmodel2/misc/custom_slider_ratio[23]" closevalue="1" closedelay="10" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="trident.acf" author="Michael Wilson" description="Hawker-Sideley Trident">
+    <door position="LF1" x="-1.80900002" y="-0.050999999" z="-13.9980001" psi="6.75" />
+    <door position="LF2" x="-1.82000005" y="-0.050999999" z="-7.02199984" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="737.acf" author="Benedikt Stratmann, Pierre Stone and Lukas Denhoff" description="Boeing 737-700 xversion 5">
+    <door position="LF1" x="-1.75999999" y="0.150000006" z="-11.3699999" psi="8.44999981" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="737.acf" author="Benedikt Stratmann, Pierre Stone and Lukas Denhoff" description="Boeing 737-800 xversion 520">
+    <door position="LF1" x="-1.78999996" y="0.18528001" z="-13.6721754" psi="8.52099991" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="christian Riviere" description="Airbus A320neo  for xplane 11">
+    <door position="LF1" x="-1.92999995" y="0.800000012" z="-11.8000002" psi="3.22300005" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="christian Riviere" description="Airbus  A321 neo">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A330.acf" author="christian riviere" description="Airbus A330-900   for xplane 11">
+    <door position="LF1" x="-2.54999995" y="2.58999991" z="-20.9300003" psi="8.39999962" />
+    <door position="LF2" x="-2.78999996" y="2.57200003" z="-10.24600029" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A380.acf" author="christian-riviere    panel 2D by SKYCYCLE" description="">
+    <door position="LF1" x="-2.92000008" y="1.36000001" z="-24.3799992" psi="7.38999987" />
+    <door position="LF2" x="-3.31200004" y="1.25999999" z="-13.9680004" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.33100009" y="4.11499977" z="-9.6239996" psi="0" />
+    <door position="LU2" x="-3.32800007" y="4.1500001" z="8.31099987" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="DC9-32.acf" author="Francesco D'Arpa" description="">
+    <door position="LF1" x="-1.61600006" y="-0.702000022" z="-11.9139996" psi="7.90999985" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Tu-134.acf" author="Pilot-sanya" description="Tupolev Tu-134B3">
+    <door position="LF1" x="-1.33000004" y="0.75" z="-10.6040001" psi="-0.0439999998" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A310.acf" author="Pilot-sanya" description="Airbus A-310">
+    <door position="LF1" x="-2.47799993" y="0.690999985" z="-14.5810003" psi="10.0220003" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="IL96.acf" author="ramzzess" description="IL96-400">
+    <door position="LF1" x="-2.45600009" y="2.74300003" z="-24.6049995" psi="11.4350004" />
+    <door position="LF2" x="-3.0710001" y="2.72199988" z="-10.03800011" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Tu204.acf" author="x-plane.su" description="Tu-204">
+    <door position="LF1" x="-1.824" y="1.07099998" z="-16.6809998" psi="5.57999992" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Tu214.acf" author="x-plane.su" description="Tu-204">
+    <door position="LF1" x="-1.83399999" y="1.02100003" z="-16.6630001" psi="5.55999994" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="avanti.acf" author="itxd" description="Piaggio P180 Avanti II">
+    <door position="LF1" x="-6.36000013" y="-1.53199995" z="-3.92199993" psi="-0.750999987" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="B7879.acf" author="Magknight Team" description="Boeing 787-9 Dreamliner. ">
+    <door position="LF1" x="-2.52900004" y="-0.0149999997" z="-22.6700001" psi="10.1990004" opendref="aero787/doors/moving[0]" openvalue="1" opendelay="10" closedref="aero787/doors/moving[0]" closevalue="2" closedelay="10" type="0" />
+    <door position="LF2" x="-2.8670001" y="-0.0719999969" z="-10.43900013" psi="0" opendref="aero787/doors/moving[1]" openvalue="1" opendelay="10" closedref="aero787/doors/moving[1]" closevalue="2" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="-2.89400005" y="-0.061999999" z="6.80499983" psi="0" opendref="aero787/doors/moving[4]" openvalue="1" opendelay="10" closedref="aero787/doors/moving[4]" closevalue="2" closedelay="10" type="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <service name="boarding" maxpax="246" paxweight="86" paxspeed="5.67" />
+    <service name="catering" maxmeal="550" mealweight="0.6" mealspeed="0.84" />
+    <service name="initialization" bagnumber="0" />
+  </acf>
+  <acf name="707.acf" author="Michael Wilson" description="Boeing 707">
+    <door position="LF1" x="-1.60699999" y="0.497000009" z="-17.0201607" psi="8.30000019" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="L1011.acf" author="Michael Wilson" description="tri star">
+    <door position="LF1" x="-2.5079999" y="-0.574000001" z="-20.8069992" psi="10.552" />
+    <door position="LF2" x="-2.87400007" y="-0.586000025" z="-8.70499992" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A330_300.acf" author="Rob Wilson" description="A330-300 feat. QPAC">
+    <door position="LF1" x="-2.51300001" y="-0.189999998" z="-24.2509995" psi="9.03999996" />
+    <door position="LF2" x="-2.76200008" y="-0.219999999" z="-12.698" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="tu154.acf" author="Felis" description="Tupolev Tu154M">
+    <door position="LF1" x="-1.81400001" y="-0.64200002" z="-18.5459995" psi="6.4000001" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="DC-8-61.acf" author="Michael Wilson, 3D model and cockpit Julien Brezel" description="Douglas dc-8 61">
+    <door position="LF1" x="-1.84099996" y="-0.472000003" z="-20.2180004" psi="3.1099999" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="DC-8-63.acf" author="Michael Wilson, 3D model and cockpit Julien Brezel" description="Douglas dc-8 63">
+    <door position="LF1" x="-1.78900003" y="-0.518000007" z="-20.2010002" psi="1.09000003" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="FJS_732_TwinJet.acf" author="2018" description="FJS 732v3">
+    <door position="LF1" x="-1.59399998" y="-0.130999997" z="-9.85200024" psi="4.46000004" opendref="FJS/732/DoorSta/Door1" openvalue="1" opendelay="5" closedref="FJS/732/DoorSta/Door1" closevalue="1" closedelay="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a319.acf" author="Gliding Kiwi" description="A319 with high fidelity system modelling">
+    <door position="LF1" x="-1.82799995" y="0.670000017" z="-10.257" psi="5" opendref="AirbusFBW/PaxDoorModeArray[0]" openvalue="1" opendelay="5" closedref="AirbusFBW/PaxDoorModeArray[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a319_StdDef.acf" author="Gliding Kiwi" description="A319 with high fidelity system modelling">
+    <door position="LF1" x="-1.82799995" y="0.670000017" z="-10.257" psi="5" opendref="AirbusFBW/PaxDoorModeArray[0]" openvalue="1" opendelay="5" closedref="AirbusFBW/PaxDoorModeArray[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Rotate-MD-80-XP11.acf" author="(c) 2013-2017 Juan Alcon, Ivan Arroyo, Pedro Muñoz, Alfredo Torrado" description="Rotate MD-80">
+    <door position="LF1" x="-1.54999995" y="0.75999999" z="-19.0499992" psi="1.88999999" opendref="Rotate/md80/doors/main_cabin_door_open" openvalue="-1" opendelay="5" closedref="Rotate/md80/doors/main_cabin_door_close" closevalue="-1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A350_xp11.acf" author="FlightFactor and QPAC" description="">
+    <door position="LF1" x="-2.65000007" y="0.868999982" z="-24.5959995" psi="9.63000011" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-3.03900003" y="0.868999982" z="-12.8649998" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="-2.977" y="1.09800005" z="6.97700024" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[6]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[6]" closevalue="0" closedelay="10" type="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A350_xp11.acf" author="FlightFactor and ToLiss" description="">
+    <door position="LF1" x="-2.65000007" y="0.868999982" z="-24.5959995" psi="9.63000011" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-3.03900003" y="0.868999982" z="-12.8649998" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="-2.977" y="1.09800005" z="6.97700024" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[6]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[6]" closevalue="0" closedelay="10" type="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="767-F_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 767-Freiter ">
+    <door position="LF1" x="-2.30699992" y="0.836000025" z="-20.0650005" psi="5" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="767-200ER_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 767 200ER">
+    <door position="LF1" x="-2.34899998" y="0.859000027" z="-17.2709999" psi="5.78000021" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="-2.4289999" y="0.802999973" z="12.9320002" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[4]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[4]" closevalue="0" closedelay="10" type="0" />
+  </acf>
+  <acf name="777-200ER_xp11.acf" author="FlightFactor " description="Boeing 777-200ER">
+    <door position="LF1" x="-2.79299998" y="0.0719999969" z="-23.1466408" psi="6.92000008" />
+    <door position="LF2" x="-3.05999994" y="0.0199999996" z="-12.7360001" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="-3.05999994" y="0.0399999991" z="6.57000017" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="777-200LR_xp11.acf" author="FlightFactor " description="Boeing 777-200ER">
+    <door position="LF1" x="-2.79299998" y="0.0719999969" z="-23.1466408" psi="6.92000008" />
+    <door position="LF2" x="-3.05999994" y="0.0199999996" z="-12.7360001" psi="0" />
+    <door position="LF3" x="-3.05999994" y="0.0399999991" z="6.57000017" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="777-300ER_xp11.acf" author="FlightFactor" description="Boeing 777-200LR">
+    <door position="LF1" x="-2.79999995" y="0.064000003" z="-28.5459995" psi="6.83900023" />
+    <door position="LF2" x="-3.05599999" y="0.0299999993" z="-18.1289997" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="-3.07999992" y="0.0900000036" z="11.2360001" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="MD11.acf" author="Created by BlueHorizon International Aircraft R&amp;D Team" description="McDonnell Douglas MD-11">
+    <door position="LF1" x="-2.45600009" y="0.749000013" z="-27.0289993" psi="12.2299995" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="747-400.acf" author="Mohammad Gazzawi / Sergio Santagada / Javier Rollon / Jim Gregory / Michael M." description="B747-400">
+    <door position="LF1" x="-2.85299993" y="0.934000015" z="-21.2420006" psi="4.15999985" opendref="sim/cockpit2/switches/door_open[1]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/door_open[1]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-3.204" y="1.07099998" z="-11.9300003" psi="0" opendref="none" openvalue="-1" opendelay="10" closedref="none" closevalue="-1" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-2.61500001" y="3.671" z="-14.8070002" psi="0" opendref="sim/cockpit2/switches/door_open[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/door_open[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="757-200_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 757-200 with PW2037 and RR 535E4">
+    <door position="LF1" x="-1.73431206" y="0.173736006" z="-17.818737" psi="5" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="15" type="0" />
+    <door position="LF2" x="-1.71200001" y="0.0810000002" z="-9.03199959" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="15" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="757-300_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 757-300 with PW2042 and RR 535E4B">
+    <door position="LF1" x="-1.74040806" y="0.167639986" z="-21.500721" psi="5" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="15" type="0" />
+    <door position="LF2" x="-1.73000002" y="0.119999997" z="-12.7159996" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="15" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b738.acf" author="Alex Unruh" description="Boeing 737-800X">
+    <door position="LF1" x="-1.72599995" y="-0.579999983" z="-13.6000004" psi="13.0500002" opendref="laminar/B738/door/fwd_L_toggle" openvalue="1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="0" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b739.acf" author="Alex Unruh" description="Boeing 73U_737-900">
+    <door position="LF1" x="-1.74600005" y="0.583999991" z="-14.0780001" psi="10" opendref="laminar/B738/door/fwd_L_toggle" openvalue="1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="777-200LR_xp11.acf" author="FlightFactor" description="Boeing 777-200LR">
+    <door position="LF1" x="-2.74320006" y="-0.198120028" z="-22.4242611" psi="5" />
+    <door position="LF2" x="-3.08599997" y="-0.0140000004" z="-12.0389996" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="-3.09500003" y="0.0199999996" z="7.38100004" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="SSGE-170LR_Evo_11.acf" author="Supercritical Simulations Group and FJCC" description="Embraer 170 Evolution series">
+    <door position="LF1" x="-1.36550403" y="0.396239996" z="-9.24471188" psi="0.725000024" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Car_B1900D.acf" author="Carenado" description="B1900 for X-plane 10.5x (Works in v11, but without v11-specific features)">
+    <door position="LF1" x="-5.30999994" y="-0.904999971" z="-6.22900009" psi="0" opendref="sim/cockpit2/switches/door_open[0]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/door_open[0]" closevalue="0" closedelay="5" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Car_B200_King_Air.acf" author="Carenado" description="B200 for X-plane 11">
+    <door position="LF1" x="-10.1040001" y="-0.130999997" z="2.60899997" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="An24_v11.acf" author="Andrey Kozyaruk(Felis) and Pavel Krupnykov(skyteacher)" description="Antonov An24RV twin turboprop">
+    <door position="LF1" x="-15.026" y="-2.05999994" z="4.23999977" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="EMB110.acf" author="DreamFoil" description="EMB 110P1 Bandeirante">
+    <door position="LF1" x="-8.30000019" y="-0.375" z="-6.04500008" psi="9.43000031" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="ATR72.acf" author="ATGCAB (Alfredo Torrado &amp; Juan Alcon)" description="ATR 72-500 ">
+    <door position="LF1" x="-14.7670002" y="-1.08000004" z="6.12699986" psi="10.7770004" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Jetstream32.acf" author="JRollon Planes. www.jrollon.com Javier Rollon Moran" description="Bae Jetstream 32. X-Plane 11 V.1.1">
+    <door position="LF1" x="-9.07499981" y="-0.134000003" z="3.64528036" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Tu154V.acf" author="Pilot-sanya" description="Tupolev Tu154m">
+    <door position="LF1" x="-1.86000001" y="0.523999989" z="-18.6420002" psi="4.76999998" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-1.88999999" y="0.400000006" z="-7.47300005" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[1]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[1]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b738_4k.acf" author="Alex Unruh" description="Boeing 737-800X">
+    <door position="LF1" x="-1.72599995" y="-0.579999983" z="-13.6000004" psi="13.0500002" opendref="laminar/B738/door/fwd_L_toggle" openvalue="1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="0" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b739_4k.acf" author="Alex Unruh" description="Boeing 737-900U">
+    <door position="LF1" x="-1.74600005" y="0.583999991" z="-14.0780001" psi="10" opendref="laminar/B738/door/fwd_L_toggle" openvalue="1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="SF34.acf" author="Carenado" description="S340B">
+    <door position="LF1" x="-9.02099991" y="-0.493999988" z="-6.579" psi="15.3999996" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b737.acf" author="Alex Unruh" description="Boeing 737-700U">
+    <door position="LF1" x="-1.58299994" y="0.488000005" z="-13.8979998" psi="8.60099983" opendref="laminar/B738/door/fwd_L_toggle" openvalue="-1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="-1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="b737_4k.acf" author="Alex Unruh" description="Boeing 737-700U">
+    <door position="LF1" x="-1.58299994" y="0.488000005" z="-13.8979998" psi="8.60099983" opendref="laminar/B738/door/fwd_L_toggle" openvalue="-1" opendelay="5" closedref="laminar/B738/door/fwd_L_toggle" closevalue="-1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2019" description="Airbus A380-841 Engines Rolls Royce • Lufthansa">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-841 Engines Rolls Royce • Airbus Test Aircraft 007">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-861 • Engines Engine Alliance • Air France">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-841 Engines Rolls Royce • British Airways">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-841 Engines Rolls Royce • China Southern">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-861 Engines Eingine Alliance">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-861 Engines Engine Alliance • Korean Air">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-842 Engines Rolls Royce • Qantas">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-841 Engines Rolls Royce • Singapore Airlines">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A388.acf" author="Peter Hager Copyright 2009-2017" description="Airbus A380-841 Engines Rolls Royce • Thai Airways">
+    <door position="LF1" x="-3.11599994" y="1.15199995" z="-25.2959995" psi="5" />
+    <door position="LF2" x="-3.54200006" y="1.18799996" z="-14.8070002" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-3.3269999" y="3.78699994" z="-10.22399998" psi="0" />
+    <door position="LU2" x="-3.31200004" y="3.76900005" z="9.7889996" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="B38M.acf" author="Alex Unruh" description="Boeing 737-800X">
+    <door position="LF1" x="-1.61600006" y="0.213360012" z="-13.9110003" psi="9.14999962" opendref="laminar/B738/door/aft_L_toggle" openvalue="-1" opendelay="5" closedref="laminar/B738/door/aft_L_toggle" closevalue="-1" closedelay="10" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="E145.acf" author="Marko Mamula" description="X-Crafts E145">
+    <door position="LF1" x="-8" y="-0.309999973" z="-10.6100006" psi="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="Legacy.acf" author="Marko Mamula" description="X-Crafts Legacy 650">
+    <door position="LF1" x="-8" y="-0.609999955" z="-8.71000004" psi="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="E135.acf" author="Marko Mamula" description="X-Crafts E135">
+    <door position="LF1" x="-8" y="-0.609999955" z="-8.71000004" psi="0" opendref="XCrafts/doors/front_main" openvalue="1" opendelay="5" closedref="XCrafts/doors/front_main" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="E140.acf" author="Marko Mamula" description="X-Crafts E140">
+    <door position="LF1" x="-8" y="-0.609999955" z="-8.71000004" psi="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="FJS_732_TwinJet.acf" author="FlyJsim" description="">
+    <door position="LF1" x="-1.91414404" y="-0.341376007" z="-9.47318459" psi="5" opendref="FJS/732/DoorSta/Door1" openvalue="1" opendelay="6" closedref="FJS/732/DoorSta/Door1" closevalue="1" closedelay="6" />
+  </acf>
+  <acf name="C90B.acf" author="Tom Kyler/Jim Gregory" description="King Air C90">
+    <door position="LF1" x="-8.86800003" y="-0.449000001" z="3.65400004" psi="5" opendref="sim/flight_controls/door_open_1" openvalue="-1" opendelay="5" closedref="sim/flight_controls/door_close_1" closevalue="-1" closedelay="5" type="1" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="C510_Mustang.acf" author="Rob Wilson" description="Citation Mustang">
+    <door position="LF1" x="-6.73600006" y="-0.987999976" z="-1.78299999" psi="0" opendref="Mustang/door_input" openvalue="0" opendelay="5" closedref="Mustang/door_input" closevalue="0" closedelay="5" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="S550_Citation_II.acf" author="Carenado" description="Cessna C550 Citation II">
+    <door position="LF1" x="-5.95900011" y="-0.509015977" z="-3.62700009" psi="5" opendref="sim/cockpit2/switches/door_open[0]" openvalue="1" opendelay="5" closedref="sim/cockpit2/switches/door_open[0]" closevalue="0" closedelay="5" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="767-300ER_xp11.acf" author="FlightFactor and StepToSky" description="Boeing 767 300ER">
+    <door position="LF1" x="-2.3195281" y="0.856487989" z="-19.5437775" psi="5" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="CRJ200.acf" author="Javier Rollon (www.jrollon.com) &amp; Philipp Muenzel (www.philippmuenzel.de)" description="Bombardier Canadair CL-600 Regional Jet CRJ-200 v1.71 for X-Plane 11">
+    <door position="LF1" x="0" y="0" z="0" psi="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="787.acf" author="Heinz Dziurowitz &amp; Cameron Garner" description="Boeing 787 (v1.03)">
+    <door position="LF1" x="-2.55800009" y="0.799000025" z="-19.9619999" psi="5" />
+    <door position="LF2" x="-2.91700006" y="0.816999972" z="-10.8979998" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <service name="boarding" maxpax="252" paxweight="86" paxspeed="5.67" />
+    <service name="initialization" bagnumber="0" />
+  </acf>
+  <acf name="SSG_B748-I_11.acf" author="Supercritical Simulations Group " description="Boeing 747-8 Anniversary Edition">
+    <door position="LF1" x="-2.99300003" y="0.395999998" z="-25.7859993" psi="6.51000023" opendref="sim/cockpit2/switches/custom_slider_on[0]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-3.25" y="0.377999991" z="-12.3970003" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[2]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[2]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="-2.68600011" y="3.12899995" z="-20.1350002" psi="0" opendref="sim/cockpit2/switches/custom_slider_on[10]" openvalue="1" opendelay="10" closedref="sim/cockpit2/switches/custom_slider_on[10]" closevalue="0" closedelay="10" type="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A320-214 - Engines CFM56-5B4">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-11.7670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A320-214 - Engines CFM56-5B4 - Winglets">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-11.7670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A320-232 - Engines IAE V2527-A5">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-11.7670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A320.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A320-271N - NEO - Engines: PW1127G-JM">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-11.7670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A319.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A319-114 - Engines CFM56-5A5">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-10.5670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A319.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A319-114 - Engines CFM56-5B6">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-10.5670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A319.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A319-132 - Engines IAE-V2524-A5">
+    <door position="LF1" x="-1.95799999" y="0.531000018" z="-10.5670002" psi="5" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A321-211 - Engines CFM56-5B3 - Sharklets">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="-1.96000004" y="0.769999981" z="-7.4100002" psi="3.3499999" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A321-231 - Engines IAE V2533-A5 - Sharklets">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="-1.96000004" y="0.769999981" z="-7.4100002" psi="3.3499999" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A321-231 - Engines IAE V2533-A5">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="-1.96000004" y="0.769999981" z="-7.4100002" psi="3.3499999" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A321-271N - NEO - Engines: PurePower PW1133G-JM">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="A321.acf" author="Peter Hager - ©2011-2019" description="Airbus Industrie A321-272N - NEO - Engines: PurePower PW1130G-JM ">
+    <door position="LF1" x="-1.96000004" y="0.769999981" z="-16.0100002" psi="3.3499999" />
+    <door position="LF2" x="-1.96000004" y="0.769999981" z="-7.4100002" psi="3.3499999" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a321_StdDef.acf" author="Gliding Kiwi" description="A321 with high fidelity system modelling">
+    <door position="LF1" x="-1.79832006" y="0.609600008" z="-16.148304" psi="5" opendref="AirbusFBW/PaxDoorModeArray[0]" openvalue="1" opendelay="10" closedref="AirbusFBW/PaxDoorModeArray[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-1.81799996" y="0.610000014" z="-6.99499989" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="a321.acf" author="Gliding Kiwi" description="A321 with high fidelity system modelling">
+    <door position="LF1" x="-1.79832006" y="0.609600008" z="-16.148304" psi="5" opendref="AirbusFBW/PaxDoorModeArray[0]" openvalue="1" opendelay="10" closedref="AirbusFBW/PaxDoorModeArray[0]" closevalue="0" closedelay="10" type="0" />
+    <door position="LF2" x="-1.81799996" y="0.610000014" z="-6.99499989" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="CONCORDE_FXP.acf" author="COLIMATA" description="CONCORDE legendary supersonic airliner">
+    <door position="LF1" x="-1.54999995" y="0.529999971" z="-24.1499996" psi="0" opendref="Colimata/CON_A_DOORS_passenger_vf[0]" openvalue="1" opendelay="6" closedref="Colimata/CON_A_DOORS_passenger_vf[0]" closevalue="0" closedelay="6" type="0" />
+    <door position="LF2" x="0" y="0" z="0" psi="0" />
+    <door position="LF3" x="0" y="0" z="0" psi="0" />
+    <door position="LU1" x="0" y="0" z="0" psi="0" />
+    <door position="LU2" x="0" y="0" z="0" psi="0" />
+    <door position="LB1" x="0" y="0" z="0" psi="0" />
+    <door position="LB2" x="0" y="0" z="0" psi="0" />
+    <door position="RF1" x="0" y="0" z="0" psi="0" />
+    <door position="RF2" x="0" y="0" z="0" psi="0" />
+    <door position="RF3" x="0" y="0" z="0" psi="0" />
+    <door position="RU1" x="0" y="0" z="0" psi="0" />
+    <door position="RU2" x="0" y="0" z="0" psi="0" />
+    <door position="RB1" x="0" y="0" z="0" psi="0" />
+    <door position="RB2" x="0" y="0" z="0" psi="0" />
+  </acf>
+  <acf name="FJS_732_TwinJet.acf" author="" description="FJS 732v3.4">
+    <door position="LF1" x="-1.75399995" y="-0.0109999999" z="-9.6619997" psi="7.80999994" opendref="FJS/732/Doors/Door1" openvalue="-1" opendelay="8" closedref="FJS/732/Doors/Door1" closevalue="-1" closedelay="15" type="1" />
+  </acf>
+</aircraft>

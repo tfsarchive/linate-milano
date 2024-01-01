@@ -1,0 +1,16 @@
+A
+800
+FACADE
+
+TEXTURE Metal_Fence.png
+NO_BLEND 0.39
+
+RING 0
+TWO_SIDED 1
+
+LOD 0 6000
+  WALL 1 9000
+    SCALE 3.5 3.5
+    CENTER 0 1
+    BOTTOM 0 0.5
+    TOP    0.5 1

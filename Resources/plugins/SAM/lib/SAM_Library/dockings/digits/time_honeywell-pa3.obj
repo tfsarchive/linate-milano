@@ -1,0 +1,409 @@
+I
+800
+OBJ
+
+TEXTURE Safegate_Digits.png
+TEXTURE_LIT Safegate_Digits.png
+GLOBAL_no_blend 0.20000
+
+POINT_COUNTS 128 0 0 192
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.32354
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.25948
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.25948
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.32354
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.69003
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.62557
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.62557
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69003
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.76315
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.69865
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69865
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.76315
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.83649
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.77262
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.77262
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.83649
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.91002
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.84638
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.84638
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.91002
+VT -0.01976 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.98302
+VT -0.01976 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.91959
+VT 0.11557 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.91959
+VT 0.11557 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.98302
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.98302
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.91959
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.91959
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.98302
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.91002
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.84638
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.84638
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.91002
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.83649
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.77262
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.77262
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.83649
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.76315
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.69865
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69865
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.76315
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.69003
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.62557
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.62557
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69003
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91722 0.61786
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91722 0.55293
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96201 0.55293
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96201 0.61786
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.54332
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.47920
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.47920
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.54332
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91821 0.47035
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91821 0.40656
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96126 0.40656
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96126 0.47035
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91784 0.39721
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91784 0.33325
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.33325
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.39721
+VT 0.12002 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.32354
+VT 0.12002 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.25948
+VT 0.25536 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.25948
+VT 0.25536 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.32354
+VT -0.35478 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.90944
+VT -0.35478 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.84579
+VT -0.21944 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.84579
+VT -0.21944 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.90944
+VT -0.35478 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.98266
+VT -0.35478 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.91923
+VT -0.21944 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.91923
+VT -0.21944 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.98266
+VT -0.35478 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.32412
+VT -0.35478 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.26006
+VT -0.21944 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.26006
+VT -0.21944 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.32412
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91784 0.39716
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91784 0.33321
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.33321
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.39716
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91821 0.47056
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91821 0.40677
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96126 0.40677
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96126 0.47056
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.54413
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.48001
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.48001
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96139 0.54413
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91722 0.61685
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91722 0.55192
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96201 0.55192
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96201 0.61685
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.69099
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91797 0.62654
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.62654
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69099
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.76395
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.69945
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.69945
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96114 0.76395
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.83687
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91795 0.77301
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.77301
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96100 0.83687
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.90944
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91809 0.84579
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.84579
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96161 0.90944
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.98266
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91827 0.91923
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.91923
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96125 0.98266
+VT -0.21376 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.32412
+VT -0.21376 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.91772 0.26006
+VT -0.07842 6.12053 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.26006
+VT -0.07842 6.33845 0.25423  -0.00000 -0.00000 1.00000  0.96163 0.32412
+VT -0.27499 6.67199 0.26370  0.00000 -0.00000 1.00000  0.27578 0.46075
+VT -0.27499 6.45056 0.26370  0.00000 -0.00000 1.00000  0.27578 0.39653
+VT 0.29324 6.67199 0.26370  0.00000 -0.00000 1.00000  0.47558 0.46075
+VT 0.29324 6.45056 0.26370  0.00000 -0.00000 1.00000  0.47558 0.39653
+VT 0.25956 6.34059 0.25427  0.00000 -0.00000 1.00000  0.84227 0.10317
+VT 0.25956 6.11916 0.25427  0.00000 -0.00000 1.00000  0.84227 0.03979
+VT 0.41102 6.34059 0.25427  0.00000 -0.00000 1.00000  0.88622 0.10317
+VT 0.41102 6.11916 0.25427  0.00000 -0.00000 1.00000  0.88622 0.03979
+VT -0.07473 6.34059 0.25427  0.00000 -0.00000 1.00000  0.92559 0.25004
+VT -0.07473 6.11916 0.25427  0.00000 -0.00000 1.00000  0.92559 0.18982
+VT -0.02193 6.34059 0.25427  0.00000 -0.00000 1.00000  0.94002 0.25004
+VT -0.02193 6.11916 0.25427  0.00000 -0.00000 1.00000  0.94002 0.18982
+
+
+IDX10 2 1 0 0 3 2 6 5 4 4 
+IDX10 7 6 10 9 8 8 11 10 14 13 
+IDX10 12 12 15 14 18 17 16 16 19 18 
+IDX10 22 21 20 20 23 22 26 25 24 24 
+IDX10 27 26 30 29 28 28 31 30 34 33 
+IDX10 32 32 35 34 38 37 36 36 39 38 
+IDX10 42 41 40 40 43 42 46 45 44 44 
+IDX10 47 46 50 49 48 48 51 50 54 53 
+IDX10 52 52 55 54 58 57 56 56 59 58 
+IDX10 62 61 60 60 63 62 66 65 64 64 
+IDX10 67 66 70 69 68 68 71 70 74 73 
+IDX10 72 72 75 74 78 77 76 76 79 78 
+IDX10 82 81 80 80 83 82 86 85 84 84 
+IDX10 87 86 90 89 88 88 91 90 94 93 
+IDX10 92 92 95 94 98 97 96 96 99 98 
+IDX10 102 101 100 100 103 102 106 105 104 104 
+IDX10 107 106 110 109 108 108 111 110 114 113 
+IDX10 112 112 115 114 118 117 116 117 118 119 
+IDX10 122 121 120 121 122 123 126 125 124 125 
+IDX 126 
+IDX 127 
+
+
+ANIM_begin
+	ANIM_hide 0.00000 2.00000 sam/docking/status
+	ANIM_hide -1000000.00000 -0.50000 sam/docking/longitudinal
+	ANIM_hide 0.50000 1000000.00000 sam/docking/longitudinal
+	ANIM_hide 0.00000 9.00000 sam/aos/eobt0
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 10.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 0 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 49.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 60.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 6 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 39.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 50.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 12 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 29.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 40.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 18 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 19.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 30.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 24 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 9.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 20.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 30 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 0.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 2.00000 10.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 12.00000 20.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 22.00000 30.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 32.00000 40.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 42.00000 50.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 52.00000 60.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 36 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 1.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 3.00000 11.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 13.00000 21.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 23.00000 31.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 33.00000 41.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 43.00000 51.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 53.00000 61.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 42 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 2.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 4.00000 12.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 14.00000 22.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 24.00000 32.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 34.00000 42.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 44.00000 52.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 54.00000 62.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 48 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 3.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 5.00000 13.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 15.00000 23.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 25.00000 33.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 35.00000 43.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 45.00000 53.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 55.00000 63.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 54 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 4.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 6.00000 14.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 16.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 26.00000 34.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 36.00000 44.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 46.00000 54.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 56.00000 64.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 60 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 5.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 7.00000 15.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 17.00000 25.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 27.00000 35.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 37.00000 45.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 47.00000 55.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 57.00000 65.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 66 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 6.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 8.00000 16.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 18.00000 26.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 28.00000 36.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 38.00000 46.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 48.00000 56.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 58.00000 66.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 72 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 7.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 9.00000 17.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 19.00000 27.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 29.00000 37.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 39.00000 47.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 49.00000 57.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 59.00000 67.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 78 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 8.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 10.00000 18.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 20.00000 28.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 30.00000 38.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 40.00000 48.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 50.00000 58.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 60.00000 68.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 84 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 1.00000 9.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 11.00000 19.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 21.00000 29.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 31.00000 39.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 41.00000 49.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 51.00000 59.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		ANIM_hide 61.00000 69.00000 sim/cockpit2/clock_timer/zulu_time_minutes
+		TRIS 90 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 19.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 96 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 9.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 20.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 102 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 10.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 108 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 8.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 10.00000 18.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 20.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 114 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 7.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 9.00000 17.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 19.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 120 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 6.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 8.00000 16.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 18.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 126 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 5.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 7.00000 15.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 17.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 132 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 4.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 6.00000 14.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 16.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 138 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 3.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 5.00000 13.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 15.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 144 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 2.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 4.00000 12.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 14.00000 22.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 24.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 150 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 1.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 3.00000 11.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 13.00000 21.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 23.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 156 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 0.00000 0.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 2.00000 10.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 12.00000 20.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 22.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 162 6
+	ANIM_end
+	ANIM_begin
+		ANIM_hide -1.00000 2.00000 sam/docking/status
+		ANIM_hide 1.00000 9.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 11.00000 19.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		ANIM_hide 21.00000 24.00000 sim/cockpit2/clock_timer/zulu_time_hours
+		TRIS 168 6
+	ANIM_end
+	TRIS 174 18
+ANIM_end
+
+
+
+## StepToSky 3DsMax-XplnObj: 2.6.0+[Nov 28 2018]
+## StepToSky XplnObj: 0.9.0-beta+[Nov 27 2018]
+## Object created: 2019-10-07

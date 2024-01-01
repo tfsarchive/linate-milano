@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE ../textures/pol_bet1.dds	
+
+SCALE 20 20
+NO_ALPHA
+SURFACE concrete
+LAYER_GROUP airports -1

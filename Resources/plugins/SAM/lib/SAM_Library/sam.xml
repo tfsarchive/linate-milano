@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<scenery name="SAM Library" locked="true">
+  <datarefs>
+    <dataref name="sam/library/windturbine" label="SAM Library - Wind Turbines" autoplay="true" randomize_phase="true" augment_wind_speed="true">
+      <animation t="0" v="0" />
+      <animation t="3.5" v="360" />
+    </dataref>
+    <dataref name="sam/library/hangar/door60s" label="SAM Library - Hangar - Door 60s" autoplay="false" randomize_phase="false" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="60" v="60" />
+    </dataref>
+    <dataref name="sam/library/hangar/door40s" label="SAM Library - Hangar - Door 40s" autoplay="false" randomize_phase="false" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="40" v="40" />
+    </dataref>
+    <dataref name="sam/library/hangar/door20s" label="SAM Library - Hangar - Door 20s" autoplay="false" randomize_phase="false" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="20" v="20" />
+    </dataref>
+    <dataref name="sam/library/light/obs" label="SAM Library - Light - Obstacle" autoplay="true" randomize_phase="true" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="2.5" v="1" />
+    </dataref>
+    <dataref name="sam/library/radar2s" label="SAM Library - Radar - 2s" autoplay="true" randomize_phase="true" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="2" v="360" />
+    </dataref>
+    <dataref name="sam/library/radar4s" label="SAM Library - Radar - 4s" autoplay="true" randomize_phase="true" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="4" v="360" />
+    </dataref>
+    <dataref name="sam/library/radar6s" label="SAM Library - Radar - 6s" autoplay="true" randomize_phase="true" augment_wind_speed="false">
+      <animation t="0" v="0" />
+      <animation t="6" v="360" />
+    </dataref>
+  </datarefs>
+  <objects />
+  <jetwayDescriptions>
+    <description id="Type 01 - Glas 2.5m" height="2.5" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-3.9000001" maxRot3="4.3829999" minExtent="0" maxExtent="10" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 3.0m" height="3" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-4.19999981" maxRot3="1.41700006" minExtent="0" maxExtent="10" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 3.5m" height="3.5" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-3.9000001" maxRot3="1.76699996" minExtent="0" maxExtent="10" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 4.0m" height="4" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-5" maxRot3="0.819000006" minExtent="0" maxExtent="14" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 4.5m" height="4.5" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-3.9000001" maxRot3="4.3829999" minExtent="0" maxExtent="10" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 5.0m" height="5" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-4.5" maxRot3="2.99699998" minExtent="0" maxExtent="14" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 5.5m" height="5.5" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-4.11999989" maxRot3="3.32200003" minExtent="0" maxExtent="14" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Glas 6.0m" height="6" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-4.4000001" maxRot3="4.18599987" minExtent="0" maxExtent="14" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 2.5m" height="2.8499999" wheelPos="13.3039999" cabinPos="15.7799997" cabinLength="2.63000011" wheelDiameter="0.699000001" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-0.714999974" maxWheels="2.30999994" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 3.0m" height="3.25" wheelPos="13.3570004" cabinPos="15.7799997" cabinLength="2.75" wheelDiameter="0.699000001" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-1.15499997" maxWheels="1.82599998" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 3.5m" height="3.67000008" wheelPos="13.026" cabinPos="15.875" cabinLength="2.65499997" wheelDiameter="0.699000001" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.21799994" maxWheels="1.30400002" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 4.0m" height="4.296" wheelPos="13.3570004" cabinPos="15.7799997" cabinLength="2.6500001" wheelDiameter="0.699999988" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.26200008" maxWheels="1.07799995" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 4.5m" height="4.67000008" wheelPos="13.026" cabinPos="15.875" cabinLength="2.65499997" wheelDiameter="0.699999988" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.0940001" maxWheels="1.352" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 5.0m" height="5.26999998" wheelPos="12.0719995" cabinPos="15.9169998" cabinLength="2.54999995" wheelDiameter="0.699999988" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.58200002" maxWheels="0.853999972" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 5.5m" height="5.76999998" wheelPos="12.0719995" cabinPos="15.9169998" cabinLength="2.54999995" wheelDiameter="0.699999988" wheelDistance="2" sound="ring1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.51999998" maxWheels="1.04299998" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 01 - Solid 6.0m" height="6" wheelPos="13.0389996" cabinPos="18.0559998" cabinLength="2.01399994" wheelDiameter="0.449000001" wheelDistance="2" sound="alarm1.ogg" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-4.4000001" maxRot3="4.18599987" minExtent="0" maxExtent="19" minWheels="-2.53900003" maxWheels="0.949000001" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Glas 3.0m" height="2.83000016" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.75999999" wheelDistance="1.60000002" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="20" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Glas 3.5m" height="3.33000016" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.75999999" wheelDistance="1.60000002" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="20" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Glas 4.0m" height="3.82999992" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.800000012" wheelDistance="1.58000004" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="16.6889992" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Glas 4.5m" height="4.5" wheelPos="11.8850002" cabinPos="16.6130009" cabinLength="3.6099999" wheelDiameter="0.795000017" wheelDistance="1.59200001" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3899994" minRot3="-5.69999981" maxRot3="6.83099985" minExtent="0" maxExtent="20" minWheels="-2.5" maxWheels="0.882000029" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Glas 5.0m" height="5" wheelPos="11.8850002" cabinPos="16.6130009" cabinLength="3.6099999" wheelDiameter="0.795000017" wheelDistance="1.59200001" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3899994" minRot3="-5.69999981" maxRot3="6.83099985" minExtent="0" maxExtent="20" minWheels="-2.74699998" maxWheels="0.591000021" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Solid 3.0m" height="2.95000005" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.75999999" wheelDistance="1.60000002" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="20" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Solid 3.5m" height="3.45000005" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.75999999" wheelDistance="1.60000002" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="20" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Solid 4.0m" height="3.82999992" wheelPos="11.6420002" cabinPos="16.3700008" cabinLength="3.88800001" wheelDiameter="0.75999999" wheelDistance="1.60000002" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3909988" minRot3="-5.70000029" maxRot3="6.83100033" minExtent="0" maxExtent="20" minWheels="-6" maxWheels="6" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Solid 4.5m" height="4.5" wheelPos="11.8850002" cabinPos="16.6130009" cabinLength="3.6099999" wheelDiameter="0.795000017" wheelDistance="1.59200001" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="61.3899994" minRot3="-5.69999981" maxRot3="6.83099985" minExtent="0" maxExtent="20" minWheels="-2.5" maxWheels="0.882000029" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+    <description id="Type 02 - Solid 5.0m" height="4.90000057" wheelPos="11.8850002" cabinPos="16.6130009" cabinLength="3.81999993" wheelDiameter="0.795000017" wheelDistance="1.59200001" sound="alarm2.ogg" minRot1="-90" maxRot1="90" minRot2="-90" maxRot2="90" minRot3="-6" maxRot3="6" minExtent="0" maxExtent="20" minWheels="-2.61500001" maxWheels="0.763999999" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" />
+  </jetwayDescriptions>
+  <jetways />
+  <docks />
+  <gui />
+  <static_aircrafts />
+</scenery>

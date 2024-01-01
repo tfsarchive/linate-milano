@@ -1,0 +1,48 @@
+These Scenery Animation Manager Terms of Use ("Terms of Use") are entered into between you ("You" or "Your"), and inSim Development LTD, located at 36, St. Domenica Street, Victoria VCT 9030, Malta ("inSim"). If You accept or agree to these Terms of Use on behalf of a company or other legal entity, You represent and warrant that You have the authority to bind that company or other legal entity to these Terms of Use. "You" and "Your" will refer and apply to that company or other legal entity.
+
+Please carefully read these Terms of Use and our Privacy Policy, which is incorporated into these Terms of Use. It is based on the CC BY-NC-ND 4.0 license. In the event of a conflict between these Terms of Use and the CC BY-NC-ND 4.0 license, these Terms of Use shall prevail. The Agreement governs Your access to the use of the Scenery Animation Manager Software including all official extensions and constitutes a binding legal agreement between You and inSim.
+
+YOU ACKNOWLEDGE AND AGREE THAT, BY USING THE SCENERY ANIMATION MANAGER YOU ARE INDICATING THAT YOU HAVE READ, UNDERSTAND, AND AGREE TO BE BOUND BY THESE TERMS OF USE. IF YOU DO NOT AGREE TO THESE TERMS OF USE, PLEASE DELETE THE SOFTWARE AND DO NOT ACCESS OR USE IT.
+
+1. Scenery Animation Manager including official Extensions ("SAM")
+1.1 License
+Subject to Your compliance with the Agreement, inSim grants to you a limited license to use SAM in private, non-commercial scenery projects on 2 Hardware devices. In case the vendor can provide a proof of purchase of a payware license, exhibited by inSim only, the limitation is lifted and the license allows to use SAM in commercial scenery projects as well.
+
+1.2 Restrictions
+You shall not:
+(A) knowingly permit access to the payware Extensions by anyone other than You;
+(B) copy, modify, distribute, resell, display, or rent any portion of SAM except as permitted under the Agreement;
+(C) attempt to disassemble, duplicate, copy, modify, decompile, frame, mirror, create derivative works from, reverse engineer, or distribute any portion of SAM or permit any third party to do so;
+(D) subject to Your rights permitted under these Terms of Use, license, sell, rent, lease, transfer, assign, distribute, display, disclose, or otherwise commercially exploit, or otherwise make the Subscription Services and/or Documentation available to any third party, or attempt to obtain, or assist third parties in obtaining, access to SAM and/or Documentation;
+(E) use SAM to transmit any unsolicited commercial communications unless permitted by law;
+(F) send, store, or transmit data that may violate the intellectual property rights of any third party, or which have been unlawfully obtained;
+(G) send, store, or transmit materials or data into SAM containing Viruses, or use SAM to transmit Viruses to third parties;
+(H) use SAM to store, transmit, or process data that:
+(i) is unlawful, harmful, threatening, defamatory, obscene, infringing, harassing or racially or ethnically offensive; 
+(ii) facilitates illegal activity; 
+(iii) depicts sexually explicit images; 
+(iv) promotes unlawful violence; 
+(v) is discriminatory based on race, gender, color, religious belief, sexual orientation, disability; or 
+(vi) is otherwise illegal or causes damage or injury to any person or property; and Marin Software reserves the right, without liability or prejudice to any other rights, to disable Your access to SAM if You violate this Section 1.2(H); and
+(I) except as permitted herein, share with any third parties, any Credentials, account numbers, and account profiles for SAM.
+
+2. PROPRIETARY RIGHTS
+2.1 inSim and its vendors exclusively own and retain all rights,
+title and interest in and to SAM. All rights not expressly granted to You in the Agreement are reserved by inSim.
+2.2 Aggregated Use Data
+You authorize inSim to store your Hardware ID in combination with any entered key and the time of activation for SAM and its Extensions. inSim does not use it for any other purpose than key verification and license compliance.
+2.3 Nontransferable
+Your right to use SAM is not transferable.
+
+3. PRIVACY AND DATA SECURITY
+3.1 Personally Identifiable Data
+You may not transfer, or cause to be transferred, or input Personal Data into SAM without notifying inSim in writing. To the extent that Subscriber Data is collected by, or on behalf of, You or Your customers from end users by SAM, You represent and warrant that all appropriate consents and waivers have been or will be obtained from such end-user(s).
+3.2 Data Security and Storage
+inSim shall not be responsible for any loss, destruction, alteration, unauthorized disclosure, or corruption of SAM Data.
+
+4. YOUR OBLIGATIONS
+4.1 Enforcement
+You are responsible for the correct use of SAM. You shall promptly notify inSim of any suspected or alleged violation of the Agreement, including any unauthorized use of any password or account or any other known or suspected breach of security of SAM. inSim may suspend or terminate any access to SAM without notice to You in the event that inSim reasonably determines that You violated the Agreement.
+
+4.2 Internet Services
+You understand that Your use of SAM is dependent upon Your access to internet services. inSim will check obtained data from 2.2 in a regular cycle of 14 days which requires an active internet connection. You must acquire and maintain at Your own expense such Internet services, including, without limitation, any and all fees and taxes of any kind related to the foregoing. inSim shall not be responsible or liable for any data loss or corruption, lost communications, or any other losses or damages caused by Your internet service providers or due to Your utilizing internet services.

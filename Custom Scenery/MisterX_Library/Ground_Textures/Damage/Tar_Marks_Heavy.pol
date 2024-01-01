@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP markings -1
+
+TEXTURE Tar_Marks_Heavy.png
+TEXTURE_NORMAL 1.0 Tar_Marks_Heavy_NRM.png
+SCALE 30 30

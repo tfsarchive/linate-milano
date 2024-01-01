@@ -1,0 +1,26 @@
+I
+800
+OBJ
+
+TEXTURE		../../textures/dlazdice_praporky_text.dds
+TEXTURE_DRAPED	../../textures/dlazdice_praporky_text.dds
+POINT_COUNTS	4 0 0 6
+
+VT	   1.7997    0.0000    0.4848	 0.000  1.000 -0.000	 0.8427  0.5312
+VT	  -2.2203    0.0000   -0.8252	 0.000  1.000 -0.000	 1.0000  1.0000
+VT	  -2.2203    0.0000    0.4848	 0.000  1.000 -0.000	 0.8424  1.0000
+VT	   1.7997    0.0000   -0.8252	 0.000  1.000 -0.000	 1.0003  0.5312
+
+IDX	2
+IDX	1
+IDX	0
+IDX	3
+IDX	0
+IDX	1
+ATTR_LOD 0.000000 80000.000000
+ATTR_layer_group	objects -5
+ATTR_poly_os	2
+ATTR_draped
+TRIS	0 6
+
+# Built with SketchUp 13.0.4812. Exported with SketchUp2XPlane 1.70.

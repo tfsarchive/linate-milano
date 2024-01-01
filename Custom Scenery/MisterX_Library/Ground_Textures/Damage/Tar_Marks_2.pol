@@ -1,0 +1,8 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP taxiways +5
+
+TEXTURE Tar_Marks_2.png
+TEXTURE_NORMAL 1.0 Tar_Marks_2_NRM.png
+SCALE 25 25

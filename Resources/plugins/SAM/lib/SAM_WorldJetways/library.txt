@@ -1,0 +1,37 @@
+A
+800
+LIBRARY
+
+##########################################################
+####     Scenery Animation Manager - WorldJetways     ####
+##########################################################
+
+PRIVATE
+
+
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetway_250cm.obj 										Uni_Jetway_250cm.obj
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetway_400cm.obj 										Uni_Jetway_500cm.obj
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetway_500cm.obj 										Uni_Jetway_500cm.obj
+
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Uni_Jetway_250cm.obj 									Uni_Jetway_250cm.obj
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Uni_Jetway_400cm.obj 									Uni_Jetway_500cm.obj
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Uni_Jetway_500cm.obj 									Uni_Jetway_500cm.obj
+
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetways/Jetway_1_glass.fac 								jetway_1_glass.fac
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetways/Jetway_1_solid.fac 								jetway_1_solid.fac
+
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetways/Jetway_2_glass.fac 								jetway_2_glass.fac
+EXPORT_EXCLUDE  		lib/airport/Ramp_Equipment/Jetways/Jetway_2_solid.fac 								jetway_2_solid.fac
+
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-18m.obj    					misterx/AutoGate-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-26m.obj     				misterx/AutoGate-26m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-Perpendicular-18m.obj    	misterx/AutoGate-Perpendicular-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-Straight-18m.obj     		misterx/AutoGate-Straight-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-Straight-26m.obj     		misterx/AutoGate-Straight-26m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/AutoGate-Straight-32m.obj     		misterx/AutoGate-Straight-32m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-18m.obj     				misterx/AutoGate-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-26m.obj     				misterx/AutoGate-26m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-Perpendicular-18m.obj 	misterx/AutoGate-Perpendicular-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-Straight-18m.obj     		misterx/AutoGate-Straight-18m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-Straight-26m.obj     		misterx/AutoGate-Straight-26m.obj
+EXPORT_EXCLUDE 			MisterX_Library/Airport/AutoGate/Jetways-Steel/StaticGate-Straight-32m.obj     		misterx/AutoGate-Straight-32m.obj

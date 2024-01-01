@@ -1,0 +1,9 @@
+A
+850
+LINE_PAINT
+
+TEXTURE ../../textures/silnice-sterk.png
+TEX_WIDTH 512
+SCALE 32 16
+S_OFFSET 0 129 192 256
+LAYER_GROUP markings 0

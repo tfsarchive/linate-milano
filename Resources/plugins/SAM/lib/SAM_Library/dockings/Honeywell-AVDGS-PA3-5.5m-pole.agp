@@ -1,0 +1,82 @@
+A
+1000
+AG_POINT
+
+TEXTURE texture/AGP_blank.png
+TEXTURE_CONTROL texture/AGP_blank.png
+TEXTURE_TERRAIN 1.0 1.0 texture/AGP_blank.png
+TEXTURE_SCALE 10.0 10.0
+TEXTURE_WIDTH 10.0
+
+
+HIDE_TILES 
+OBJECT types/Honeywell-AVDGS-PA3.obj
+OBJECT digits/fltno7-0_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-1_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-2_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-3_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-4_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-5_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno7-6_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-0_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-1_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-2_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-3_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-4_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/fltno6-5_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/text_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/time_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/tobt0_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/tobt1_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/tobt2_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT digits/tobt3_honeywell-pa3.obj
+#object_wed ../blank.obj
+OBJECT types/Honeywell-AVDGS-PA3-anim.obj
+#object_wed ../blank.obj
+OBJECT types/Honeywell-AVDGS-PA3-pole.obj
+
+
+
+TILE -5.0 -5.0 5.0 5.0
+ROTATION 0
+ANCHOR_PT 0.0 0.0
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		0
+OBJ_DELTA -0.45 0.0 0.0 -0.5 	1
+OBJ_DELTA -0.30 0.0 0.0 -0.5 	2
+OBJ_DELTA -0.15 0.0 0.0 -0.5 	3
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		4
+OBJ_DELTA 0.15 0.0 0.0 -0.5 	5
+OBJ_DELTA 0.30 0.0 0.0 -0.5 	6
+OBJ_DELTA 0.45 0.0 0.0 -0.5 	7
+OBJ_DELTA -0.375 0.0 0.0 -0.5 	8
+OBJ_DELTA -0.226 0.0 0.0 -0.5 	9
+OBJ_DELTA -0.075 0.0 0.0 -0.5 	10
+OBJ_DELTA 0.075 0.0 0.0 -0.5 	11
+OBJ_DELTA 0.225 0.0 0.0 -0.5 	12
+OBJ_DELTA 0.375 0.0 0.0 -0.5 	13
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		14
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		15
+OBJ_DELTA -0.287 0.0 0.0 -0.5 	16
+OBJ_DELTA -0.148 0.0 0.0 -0.5 	17
+OBJ_DELTA 0.049 0.0 0.0 -0.5 	18
+OBJ_DELTA 0.188 0.0 0.0 -0.5 	19
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		20
+OBJ_DELTA 0.0 0.0 0.0 -0.5 		21

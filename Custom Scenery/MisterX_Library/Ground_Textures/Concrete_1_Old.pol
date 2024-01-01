@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP taxiways +3
+
+DECAL_LIB Decals/apt_concrete.dcl
+TEXTURE Concrete_1_Old.png
+TEXTURE_NORMAL 1.0 Concrete_1_NRM.png
+SURFACE concrete
+SCALE 20 20

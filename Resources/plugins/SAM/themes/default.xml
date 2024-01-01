@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<color-scheme name="Default">
+    <category name="menu">
+        <property name="background" value="212121"/>
+        <property name="background-selected" value="424242"/>
+        <property name="title-seperator" value="282828"/>
+        <property name="text" value="effcff"/>
+        <property name="text-mouseover" value="2a81c0"/>
+    </category>
+    <category name="page">
+        <property name="background" value="424242"/>
+    </category>
+    <category name="widget">
+        <property name="background" value="212121"/>
+        <property name="title-seperator"/>
+        <property name="title" value="212121"/>
+        <property name="text" value="aeaeae"/>
+    </category>
+    <category name="entry-field">
+        <property name="background"/>
+        <property name="background-mouseover"/>
+        <property name="cursor-enter" value="ffffff"/>
+        <property name="text-enter" value="2a81c0"/>
+        <property name="text" value="aeaeae"/>
+        <property name="selection" value="282828"/>
+        <property name="border" value="aeaeae"/>
+        <property name="border-active" value="2a81c0"/>
+    </category>
+    <category name="toggle">
+        <property name="background" value="aeaeae"/>
+        <property name="background-toggled" value="2a81c0"/>
+        <property name="text" value="212121"/>
+        <property name="border"/>
+        <property name="border-toggled"/>
+        <property name="text-toggled" value="212121"/>
+    </category>
+    <category name="radio">
+        <property name="background"/>
+        <property name="background-mouseover"/>
+        <property name="text" value="aeaeae"/>
+        <property name="selected" value="aeaeae"/>
+        <property name="box-border" value="aeaeae"/>
+        <property name="border"/>
+    </category>
+    <category name="aircraft-door">
+        <property name="outline" value="ffffff"/>
+        <property name="configured-background" value="424242"/>
+        <property name="available-background" value="2a81c0"/>
+        <property name="connected-background" value="66b771"/>
+        <property name="selected-background" value="2a81c0"/>
+        <property name="connection-line" value="212121"/>
+    </category>
+    <category name="button">
+        <property name="background" value="aeaeae"/>
+        <property name="border"/>
+        <property name="text" value="212121"/>
+        <property name="background-active" value="2a81c0"/>
+        <property name="border-active"/>
+        <property name="text-active" value="000000"/>
+    </category>
+    <category name="activation">
+        <property name="pending" value="2a81c0"/>
+        <property name="pending-text" value="000000"/>
+        <property name="active" value="66b771"/>
+        <property name="active-text" value="000000"/>
+    </category>
+</color-scheme>

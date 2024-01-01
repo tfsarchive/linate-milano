@@ -1,0 +1,12 @@
+A
+850
+DRAPED_POLYGON
+
+TEXTURE Grass_1.png
+TEXTURE_NORMAL 1.0 Grass_1_NRM.png
+SCALE 512 512
+NO_ALPHA
+SURFACE dirt
+LAYER_GROUP airports -1
+DECAL_LIB ../Decals/Grass_Dirt.dcl
+DECAL_LIB lib/g10/decals/low_freq_mod_1.dcl

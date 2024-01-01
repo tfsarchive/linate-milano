@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<scenery name="Linate" locked="false">
+  <datarefs />
+  <objects />
+  <jetwayDescriptions />
+  <jetways>
+    <jetway name="Jetway_3" latitude="45.459974635254419" longitude="9.2794990247997386" heading="157.95405578613281" height="3.67000008" wheelPos="13.026" cabinPos="15.875" cabinLength="2.65499997" wheelDiameter="0.699000001" wheelDistance="2" sound="ring1.ogg" externalPower="0" minRot1="-88" maxRot1="88" minRot2="-88" maxRot2="0" minRot3="-6" maxRot3="5" minExtent="0" maxExtent="19" minWheels="-2.21799994" maxWheels="1.30400002" initialRot1="0" initialRot2="0" initialRot3="0" initialExtent="0" forDoorLocation="LF1" />
+  </jetways>
+  <docks />
+  <gui />
+  <static_aircrafts />
+</scenery>

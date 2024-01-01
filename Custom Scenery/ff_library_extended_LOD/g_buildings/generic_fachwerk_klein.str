@@ -1,0 +1,16 @@
+A
+850
+OBJECT_STRING
+
+OBJECT 90 90 fachwerk_klein_einst_1.obj
+OBJECT 90 90 fachwerk_klein_einst_2.obj
+OBJECT 90 90 fachwerk_klein_einst_5.obj
+OBJECT 90 90 fachwerk_klein_zweist_1.obj
+OBJECT 90 90 fachwerk_klein_zweist_2.obj
+OBJECT 90 90 fachwerk_klein_zweist_3.obj
+OBJECT 90 90 fachwerk_klein_zweist_4.obj
+OBJECT 90 90 fachwerk_klein_zweist_5.obj
+OBJECT 0 0 fachwerk_klein_einst_1.obj
+OBJECT 0 0 fachwerk_klein_einst_2.obj
+OBJECT 0 0 fachwerk_klein_einst_5.obj
+OFFSET 0

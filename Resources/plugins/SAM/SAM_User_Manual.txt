@@ -1,0 +1,4 @@
+All information (installation, how to use, etc.) are available at the Stairport help desk:
+
+SAM2 plugin: https://stairportscenerieshelp.freshdesk.com/en/support/solutions/folders/77000001958
+WorldJetways extension: https://stairportscenerieshelp.freshdesk.com/en/support/solutions/folders/77000001957

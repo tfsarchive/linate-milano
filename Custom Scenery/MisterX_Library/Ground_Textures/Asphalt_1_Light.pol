@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP taxiways +2
+
+DECAL_LIB Decals/apt_asphalt.dcl
+TEXTURE Asphalt_1_Light.png
+TEXTURE_NORMAL 1.0 Asphalt_1_NRM.png
+SURFACE asphalt
+SCALE 10 10

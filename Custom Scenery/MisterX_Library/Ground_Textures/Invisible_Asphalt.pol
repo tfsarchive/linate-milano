@@ -1,0 +1,9 @@
+A
+850
+DRAPED_POLYGON
+LAYER_GROUP runways +5
+
+TEXTURE blank.png
+
+SURFACE asphalt
+SCALE 0.01 0.01

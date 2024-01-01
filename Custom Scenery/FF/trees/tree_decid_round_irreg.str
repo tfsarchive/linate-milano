@@ -1,0 +1,36 @@
+A
+850
+OBJECT_STRING
+
+OBJECT 0 90 tree_decid_round.obj
+OFFSET 0
+OBJECT 0 90 tree_decid_round2a.obj
+OFFSET 4
+OBJECT 0 90 tree_decid_round2b.obj
+OFFSET -1
+OBJECT 0 90 tree_decid_round3c.obj
+OFFSET -3
+OBJECT 0 90 tree_decid_round1.obj
+OFFSET -5
+OBJECT 0 90 tree_decid_rounda.obj
+OFFSET 4
+OBJECT 0 90 tree_decid_round3b.obj
+OFFSET 2
+OBJECT 0 90 tree_decid_round3c.obj
+OFFSET -2
+OBJECT 0 90 tree_decid_round2.obj
+OFFSET -1
+OBJECT 0 90 tree_decid_round1a.obj
+OFFSET 0
+OBJECT 0 90 tree_decid_round1b.obj
+OFFSET 3
+OBJECT 0 90 tree_decid_round2c.obj
+OFFSET 5
+OBJECT 0 90 tree_decid_round3.obj
+OFFSET 2
+OBJECT 0 90 tree_decid_round1a.obj
+OFFSET -3
+OBJECT 0 90 tree_decid_round2b.obj
+OFFSET -5
+OBJECT 0 90 tree_decid_roundc.obj
+OFFSET 1

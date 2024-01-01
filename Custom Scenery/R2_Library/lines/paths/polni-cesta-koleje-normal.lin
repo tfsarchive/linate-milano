@@ -1,0 +1,9 @@
+A
+850
+LINE_PAINT
+
+TEXTURE ../../textures/silnice-polni.png
+TEX_WIDTH 512
+SCALE 18 9
+S_OFFSET 0 93 138 184
+LAYER_GROUP markings -1

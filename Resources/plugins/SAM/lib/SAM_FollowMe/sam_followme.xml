@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<followme>
+	<config>
+	    <driver defaultMode="realistic"
+	    	pilotEyeMinAngleOfDepression="2.5"
+	    	pilotEyeMaxAngleOfDepression="7.5"
+		    aircraftBehindHeadingThreshold="80.0"
+		    throttleInterpStartFactor="1.0"
+		    throttleInterpEndFactor="0.5"
+		    brakeInterpStartFactor="0.8"
+		    brakeInterpEndFactor="1.0"
+		    keepDistanceModeFactor="0.85"
+		    minimumSpawnDistance="0.85"
+		    vehicleParkApproachVelocityMps="5.0"
+		    vehicleParkingDistance="5.0"
+            wingSpanCodeAFactor="1.6"
+            wingSpanCodeBFactor="1.3"
+            wingSpanCodeCFactor="1.0"
+            wingSpanCodeDFactor="0.75"
+            wingSpanCodeEFactor="0.5"
+            wingSpanCodeFFactor="0.4"
+		    />
+	</config>
+	<marshallers>
+        <object path="objects/marshaller/marshaller_01.OBJ">
+        	<livery path="objects/marshaller/Marshaller.png"/>
+        	<livery path="objects/marshaller/Marshaller_LIT.png"/>
+        </object>
+        <object path="objects/marshaller/marshaller_02.OBJ">
+        	<livery path="objects/marshaller/Marshaller.png"/>
+        	<livery path="objects/marshaller/Marshaller_LIT.png"/>
+        </object>
+        <object path="objects/marshaller/marshaller_03.OBJ">
+        	<livery path="objects/marshaller/Marshaller.png"/>
+        	<livery path="objects/marshaller/Marshaller_LIT.png"/>
+        </object>
+        <object path="objects/marshaller/marshaller_04.OBJ">
+        	<livery path="objects/marshaller/Marshaller.png"/>
+        	<livery path="objects/marshaller/Marshaller_LIT.png"/>
+        </object>
+    </marshallers>
+</followme>
+
